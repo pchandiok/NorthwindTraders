@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindTraders", "NorthwindTraders\NorthwindTraders.csproj", "{1F4C49E1-1EE7-466C-AB8A-7DD54B39C33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{F4DB12BB-F043-4951-B37B-C05261DC3D8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F4C49E1-1EE7-466C-AB8A-7DD54B39C33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4C49E1-1EE7-466C-AB8A-7DD54B39C33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4C49E1-1EE7-466C-AB8A-7DD54B39C33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4C49E1-1EE7-466C-AB8A-7DD54B39C33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DB12BB-F043-4951-B37B-C05261DC3D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DB12BB-F043-4951-B37B-C05261DC3D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DB12BB-F043-4951-B37B-C05261DC3D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DB12BB-F043-4951-B37B-C05261DC3D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
