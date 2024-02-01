@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Models.Entities;
 
 public class Supplier
@@ -6,7 +8,8 @@ public class Supplier
     {
         Products = new HashSet<Product>();
     }
-    int SupplierId { get; set; }
+
+    public int SupplierID { get; set; }
     public string CompanyName { get; set; }
     public string ContactName { get; set; }
     public string ContactTitle { get; set; }

@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+// builder.Services.AddRazorPages();
+
+ConfigureServices(builder.Services);
 
 var app = builder.Build();
 
@@ -23,3 +28,13 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+
+void ConfigureServices(IServiceCollection Services)
+{
+    Services.AddDbContext<NorthwindDbContext>(options => {
+        options.UseSqlite("Data Source=Data/Northwind.db");
+    });
+ 
+    Services.AddRazorPages();
+}

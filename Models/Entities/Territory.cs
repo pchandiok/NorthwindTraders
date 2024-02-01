@@ -5,7 +5,7 @@ public class Territory
     {
         EmployeeTerritories = new HashSet<EmployeeTerritory>();
     }
-    public string TerritoryId { get; set; }
+    public string TerritoryID { get; set; }
     public string TerritoryDescription { get; set; }
     public int RegionId { get; set; }
 
