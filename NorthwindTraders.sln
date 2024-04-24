@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindTraders", "NorthwindTraders\NorthwindTraders.csproj", "{1F4C49E1-1EE7-466C-AB8A-7DD54B39C33D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{F4DB12BB-F043-4951-B37B-C05261DC3D8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{150713B9-B4E7-42E1-9665-7CE566F7AF93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{1F8D9C24-F0D1-4195-A5C2-5FE36C8CE301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{9AFCF215-BCC6-46CC-BCC6-133352C33EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{77BA4ACC-CB60-4F4E-845F-6E62FA85B064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{11E4EAD4-8776-4159-BA64-6ACD2202FC9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +40,17 @@ Global
 		{1F8D9C24-F0D1-4195-A5C2-5FE36C8CE301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F8D9C24-F0D1-4195-A5C2-5FE36C8CE301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F8D9C24-F0D1-4195-A5C2-5FE36C8CE301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFCF215-BCC6-46CC-BCC6-133352C33EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFCF215-BCC6-46CC-BCC6-133352C33EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFCF215-BCC6-46CC-BCC6-133352C33EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFCF215-BCC6-46CC-BCC6-133352C33EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BA4ACC-CB60-4F4E-845F-6E62FA85B064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BA4ACC-CB60-4F4E-845F-6E62FA85B064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BA4ACC-CB60-4F4E-845F-6E62FA85B064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BA4ACC-CB60-4F4E-845F-6E62FA85B064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E4EAD4-8776-4159-BA64-6ACD2202FC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E4EAD4-8776-4159-BA64-6ACD2202FC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E4EAD4-8776-4159-BA64-6ACD2202FC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E4EAD4-8776-4159-BA64-6ACD2202FC9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
