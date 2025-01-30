@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "00VEHeNb4FE9a5YXEV/BylEUHCSZGv2ahzXRON8XyJUhsR62K3aTxju9DT7vKUiAZDoaudh2egzSa8gLoQ1YEg==",
+  "dgSpecHash": "vhna8XVWM8c=",
   "success": true,
-  "projectFilePath": "c:\\Users\\pchan\\Repos\\NorthwindTraders\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\pchan\\Source\\Repos\\NorthwindTraders\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pchan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\pchan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -27,8 +27,8 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 13.0.1 was resolved.",
-      "libraryId": "AutoMapper",
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"
       ]
@@ -37,8 +37,8 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
-      "libraryId": "MediatR",
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 13.0.1 was resolved.",
+      "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"
       ]
